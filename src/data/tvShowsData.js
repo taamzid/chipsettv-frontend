@@ -1,4 +1,4 @@
-import goodMorningAmerica from "./../assets/tvShows/GoodMorningAmerica.jpg";
+import goodMorningAmerica from "./../assets/tvShows/GoodmorningAmerica.jpg";
 import theBachelorette from "./../assets/tvShows/theBachelorette.jpg";
 import realHousewivesSLC from "./../assets/tvShows/theRealHouseWivesOfSaltLakeCity.jpg";
 import yellowstone from "./../assets/tvShows/Yellowstone.jpg";
