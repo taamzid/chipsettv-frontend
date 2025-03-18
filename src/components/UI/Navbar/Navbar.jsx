@@ -32,6 +32,8 @@ const Navbar = ({ scrollToPricing, scrollToHome }) => {
     { title: "Home", route: "#", onClick: scrollToHome },
     { title: "Channels", route: "/channel" },
     { title: "Pricing", route: "#", onClick: scrollToPricing },
+    { title: "Affiliate", route: "/affiliate-program" },
+    { title: "How To Install", route: "/installation" },
     { title: "Faq", route: "/faq" },
   ];
   const navItemsForSmallDevices = [
@@ -122,7 +124,9 @@ const Navbar = ({ scrollToPricing, scrollToHome }) => {
             <NavLink
               key={index}
               to={nav.route}
-              onClick={(nav.onClick || (() => {}), ()=>setMobileMenuOpen(false))}
+              onClick={
+                (nav.onClick || (() => {}), () => setMobileMenuOpen(false))
+              }
               className={({ isActive }) => ``}
             >
               {nav.title}

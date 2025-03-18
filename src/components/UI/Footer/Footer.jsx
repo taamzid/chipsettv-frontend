@@ -24,11 +24,11 @@ const Footer = () => {
             alt="IPTV"
             className="w-[281px] h-[91px] mx-auto md:mx-0"
           />
-          <p className="font-[400] pt-6">
+          {/* <p className="font-[400] pt-6">
             Lorem ipsum dolor sit amet consectetur. Mattis imperdiet auctor
             vestibulum vel elementum suspendisse faucibus enim. Enim lacus dolor
             elementum tortor augue nunc id ultricies.{" "}
-          </p>
+          </p> */}
         </div>
         <div>
           <h2 className="text-[30px]">Contact Us</h2>
@@ -37,7 +37,7 @@ const Footer = () => {
             <img src={mailIcon} alt="mail" className="w-[44px]" />
             <div>
               <p className="text-[20px] font-[700]">Mail Us</p>
-              <p>abc@gmail.com</p>
+              <p>Support@ChipSetTV.com</p>
             </div>
           </div>
           {/* phone */}
@@ -45,7 +45,7 @@ const Footer = () => {
             <img src={phoneIcon} alt="phone" className="w-[44px]" />
             <div>
               <p className="text-[20px] font-[700]">Call Us</p>
-              <p>+000-000-000</p>
+              <p>1•833•3•LIVE•TV</p>
             </div>
           </div>
           {/* <div className="my-4 flex items-center gap-3 font-[400]">

@@ -31,6 +31,8 @@ const NavBarShared = () => {
     { title: "Home", route: "/" },
     { title: "Channels", route: "/channel" },
     { title: "Pricing", route: "/" },
+    { title: "Affiliate", route: "/affiliate-program" },
+    { title: "How To Install", route: "/installation" },
     { title: "Faq", route: "/faq" },
   ];
   const navItemsForSmallDevices = [
