@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #000;
+}
+
+/* CSS to remove spinner buttons */
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* index.css */
+
+/* Apply a default max-width to the page container */
+.page-container {
+  margin: 0 auto; /* Center the content */
+  padding: 0 1rem; /* Add horizontal padding for small screens */
+  max-width: 100%; /* Default to full width */
+
+}
+
+@media (min-width: 768px) {
+  .page-container {
+    max-width: 720px; /* Medium devices (tablets) */
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-container {
+    max-width: 960px; /* Large devices (desktops) */
+  }
+}
+
+@media (min-width: 1280px) {
+  .page-container {
+    max-width: 1140px; /* Extra-large devices */
+    padding: 0 220px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .page-container {
+    max-width: 1280px; /* Extra-extra-large devices */
+    padding: 0 128px;
+  }
+}
